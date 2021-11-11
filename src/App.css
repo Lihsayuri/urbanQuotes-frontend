@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+html {
+  background-color: #b5c8f0;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body{
+  width: 100%;
+  height: 100%;
+}
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  padding: 0.4rem;
+  box-shadow: 5px 2px 3px grey; 
+  background-color: #081118;
+  align-items: center;
+  width: 100%;
+  height: 8%;
+}
+
+.logo{
+  align-items: flex-start;
+  max-width: 100%;
+  height: 70%;
+  padding-left: 2%;
+}
+
+
+.subtitle{
+  padding: 0.7rem;
+  color: #296fc1;
+  font-size: 2.2vw;
+  font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.slogan{
+  font-family: 'Red Hat Mono', monospace;
+  color: #081118; 
+  padding: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5vw;
+}
+
+.btn{
+  font-family: 'Red Hat Mono', monospace;
+  width: 40%;
+  height: 60px;
+  border-radius: 1rem;
+  padding: 0.5rem ;
+  box-shadow: 0 1px 4px grey;
+  background-color:#081118;
+  margin-bottom: 1.5rem;
+  color:#296fc1;
+  border: white;
+  cursor: pointer;
+  font-size: 1.7vw;
+}
+
+.btn:hover {
+  background-color: #558bc9;
+  color: white;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.card{
+  display: inline-block;
+  height: 12em;
+  width:45%;
+  padding:0.5rem;
+  margin: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 3px 3px 4px grey;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  overflow: auto;
+  background-color:#081118;
+ }
+
+
+ .card-title{
+  font-size: 100%;
+  font-weight: bold;
+  word-wrap: break-word;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-family: 'Antic Slab', serif;
+  color:#296fc1;
+}
+
+.card-content{
+  font-size: 100%;
+  word-wrap: break-word;
+  flex-grow: 1;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  font-family: 'Antic Slab', serif;
+  color:#296fc1;
+}
+
+ .flip-card{
+  margin: 1rem;
+  font-size: smaller;
+  word-wrap: break-word;
+  perspective: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front{
+  word-wrap: break-word;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari*/
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  /* font-size: smaller; */
+  word-wrap: break-word;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /*Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  font-size: smaller;
+  word-wrap: break-word;
+  transform: rotateY(180deg);
+}
+
+.tags {    
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  margin: 0 16px 8px 0;
+  padding: 0 10px 0 12px;
+  background: #296fc1;   
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Antic Slab', serif;
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  font-weight: bold;
+  }
+
+  .tags:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-color: transparent #296fc1 transparent transparent;
+    border-style: solid;
+    border-width: 12px 12px 12px 0;        
+    }
+
+.tags:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    float: left;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    }
+

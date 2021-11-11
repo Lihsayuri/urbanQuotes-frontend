@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+.frase-inicial {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 2.8vw;
+    margin-top: 2rem;
+}
+
+.frase-obs {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 1.8vw;
+    margin-top: 2rem;
+}
