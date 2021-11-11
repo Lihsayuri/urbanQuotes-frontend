@@ -20,7 +20,7 @@
 - react-router-dom 6.0.0 (Navegação entre páginas)
 - react-scripts 4.0.3 
 
-OBS: Outras dependências podem ser encontradas no package-lock.json
+OBS: Outras dependências podem ser encontradas no package.json
 
 
 ## :pushpin: Link para visualização do Backend no Heroku :pushpin::
