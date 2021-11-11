@@ -1,19 +1,19 @@
 # UrbanQuotes - Frontend <img src="https://img.shields.io/static/v1?label=Projeto2&message=Finalizado&color=success&style=flat-square&logo=ghost"/>
 
-## Linguagens utilizadas:
+## Linguagens utilizadas :desktop_computer::
 <img src="https://img.shields.io/static/v1?label=Code&message=JavaScript&color=important&style=plastic"/> <img src="https://img.shields.io/static/v1?label=Code&message=HTML&color=red&style=plastic"/> <img src="https://img.shields.io/static/v1?label=Style&message=CSS&color=blueviolet&style=plastic"/>
 - JavaScript
 - HTML
 - CSS
 
-## Bibliotecas utilizadas: 
+## Bibliotecas utilizadas :closed_book: 
 <img src="https://img.shields.io/static/v1?label=Library&message=React Native&color=blue&style=plastic"/>
 - React Native 
 
-## API utilizada:
+## API utilizada :scroll::
 - https://rapidapi.com/martin.svoboda/api/quotes15/ Random Quotes por Martin Svoboda
 
-## Dependências do React instaladas e utilizadas:
+##	:exclamation: Dependências do React instaladas e utilizadas 	:exclamation::
 - react-typical 0.1.3 (Animação do texto)
 - react-dom 17.0.2 (Navegação entre páginas)
 - react-icons 4.3.1 (Ícones para o Sidebar Menu)
@@ -23,15 +23,15 @@
 OBS: Outras dependências podem ser encontradas no package-lock.json
 
 
-## Link para visualização do Backend no Heroku:
+## :pushpin: Link para visualização do Backend no Heroku :pushpin::
 https://powerful-gorge-57473.herokuapp.com
 
 
-## Link para visualização do Frontend no Heroku:
+## :pushpin: Link para visualização do Frontend no Heroku :pushpin::
 https://stormy-depths-56864.herokuapp.com/
 
 
-## Referências utilizadas para estilização/react:
+## Referências utilizadas para estilização/react :bulb::
 - https://www.w3schools.com/howto/howto_css_flip_card.asp (Card Flip)
 - https://www.designlabthemes.com/css-tags-how-to-style-post-tags/ (Tags Style)
 - https://www.youtube.com/watch?v=CXa0f4-dWi4 (Sidebar Menu)
