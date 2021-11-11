@@ -1,13 +1,13 @@
 # UrbanQuotes - Frontend <img src="https://img.shields.io/static/v1?label=Projeto2&message=Finalizado&color=success&style=flat-square&logo=ghost"/>
 
 ## Linguagens utilizadas :desktop_computer::
-<img src="https://img.shields.io/static/v1?label=Code&message=JavaScript&color=important&style=plastic"/> <img src="https://img.shields.io/static/v1?label=Code&message=HTML&color=red&style=plastic"/> <img src="https://img.shields.io/static/v1?label=Style&message=CSS&color=blueviolet&style=plastic"/>
+<img src="https://img.shields.io/static/v1?label=Code&message=JavaScript&color=important&style=plastic&labelColor=black&logo=javascript"/> <img src="https://img.shields.io/static/v1?label=Code&message=HTML&color=red&style=plastic&labelColor=black&logo=html5"/> <img src="https://img.shields.io/static/v1?label=Style&message=CSS&color=blueviolet&style=plastic&labelColor=black&logo=css3"/>
 - JavaScript
 - HTML
 - CSS
 
 ## Bibliotecas utilizadas :closed_book: 
-<img src="https://img.shields.io/static/v1?label=Library&message=React Native&color=blue&style=plastic"/>
+<img src="https://img.shields.io/static/v1?label=Library&message=React Native&color=blue&style=plastic&labelColor=black&logo=react"/>
 - React Native 
 
 ## API utilizada :scroll::
@@ -24,10 +24,12 @@ OBS: Outras dependências podem ser encontradas no package-lock.json
 
 
 ## :pushpin: Link para visualização do Backend no Heroku :pushpin::
+<img src="https://img.shields.io/static/v1?label=App&message=Heroku&color=red&style=plastic&logo=heroku&labelColor=black"/>
 https://powerful-gorge-57473.herokuapp.com
 
 
 ## :pushpin: Link para visualização do Frontend no Heroku :pushpin::
+<img src="https://img.shields.io/static/v1?label=App&message=Heroku&color=red&style=plastic&logo=heroku&labelColor=black"/>
 https://stormy-depths-56864.herokuapp.com/
 
 
