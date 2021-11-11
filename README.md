@@ -39,6 +39,13 @@ https://stormy-depths-56864.herokuapp.com/
 - https://www.youtube.com/watch?v=CXa0f4-dWi4 (Sidebar Menu)
 - https://barbaratieko.github.io/tecweb/ (Conceitos gerais)
 
+## Vídeo de teste do Frontend ✔️:
+
+
+https://user-images.githubusercontent.com/62613979/141360187-8224ba81-207f-4ccf-b3ea-19ac7a6c1d0b.mp4
+
+
+
 # Projeto feito por:
 - Henrique Martinelli Frezzatti
 - Lívia Sayuri Makuta
