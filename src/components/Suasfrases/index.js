@@ -7,6 +7,7 @@ import Quote from '../Quote';
 import axios from "axios";
 import "./index.css";
 
+// https://stormy-depths-56864.herokuapp.com/ | https://git.heroku.com/stormy-depths-56864.git
 
 function Suasfrases() {
       const [quotes, setQuotes] = useState([]);
