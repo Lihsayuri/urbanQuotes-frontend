@@ -26,7 +26,7 @@ export default function Formulario(props){
     const CreateQuote = (event) => {
         event.preventDefault();
         axios
-            .post("http://127.0.0.1:8000/api/minhasQuotes", {frase:fraseQuote, autor:autorQuote, tags: tagQuote})
+            .post("https://powerful-gorge-57473.herokuapp.com/api/minhasQuotes", {frase:fraseQuote, autor:autorQuote, tags: tagQuote})
             .then((response) => {
                 setFrase("");
                 setAutor("");

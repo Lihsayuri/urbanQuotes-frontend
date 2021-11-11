@@ -14,7 +14,7 @@ function Suasfrases() {
   
       const loadData = () => {
         axios
-          .get("http://127.0.0.1:8000/api/minhasQuotes")
+          .get("https://powerful-gorge-57473.herokuapp.com/api/minhasQuotes")
           .then((res) => {
           setQuotes(res.data)
           // console.log(res.data)
